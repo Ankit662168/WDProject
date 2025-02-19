@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <listeners>
+  <listener class-name="Utils.Listeners"/>
+  </listeners>
+  
+  <test name="Western Digital" preserve-order="true">
+  <classes>
+  	<class name="test.Application">
+  
+  	<!-- Flash sanity Test cases  -->
+  	<methods>
+  		<!-- Commerce 
+  		<exclude name="Verify_IncidentCreation_TC_03"/>
+  		
+  		
+  		
+  		<include name="VerifySDENlogin_TC_04"/>
+		<include name="Verify_SDRMAENCration_TC_05"/>
+
+		<include name="VerifySDCNlogin_TC_06"/>
+		<include name="Verify_SDRMACNCration_TC_07"/>
+		
+		<include name="VerifySDEUlogin_TC_08"/>
+		<include name="Verify_SDRMAEUCration_TC_09"/>	
+  	
+  		<include name="VerifySDINlogin_TC_10"/>
+		<include name="Verify_SDRMAINCration_TC_11"/>
+		
+		<include name="VerifySDDElogin_TC_12"/>
+		<include name="Verify_SDRMADECration_TC_13"/>
+		
+		<include name="VerifySDfrlogin_TC_14"/>
+		<include name="Verify_SDRMAfrCration_TC_15"/>
+		
+		<include name="VerifySDITlogin_TC_16"/>
+		<include name="Verify_SDRMAITCration_TC_17"/>
+		
+		<include name="VerifySDESlogin_TC_18"/>
+		<include name="Verify_SDRMAESCration_TC_19"/>
+		
+		<include name="VerifySDRUlogin_TC_20"/>
+		<include name="Verify_SDRMARUCration_TC_21"/>
+		
+		<include name="VerifySDPTlogin_TC_22"/>
+		<include name="Verify_SDRMAPTCration_TC_23"/>
+		
+		<include name="VerifySDZHlogin_TC_24"/>
+		<include name="Verify_SDRMAZHCration_TC_25"/>
+		
+		<include name="VerifySDKOlogin_TC_26"/>
+		<include name="Verify_SDRMAKOCration_TC_27"/>
+		
+		<include name="VerifySDJPlogin_TC_28"/>
+		<include name="Verify_SDRMAJPCration_TC_29"/> -->
+		
+		
+        	
+  		<!-- Non Commerce 
+  		<include name="Verifylogin_TC_01"/>
+  		<include name="Verify_FLRMACration_TC_02"/>
+  		
+  		<include name="VerifyFLINlogin_TC_30"/>
+		<include name="Verify_FLINRMACration_TC_31"/> 
+		
+		<include name="VerifyFLKOlogin_TC_32"/>
+		<include name="Verify_FLKORMACration_TC_33"/>
+		
+		<include name="VerifyFLZHlogin_TC_34"/>
+		<include name="Verify_FLKORMACration_TC_35"/>
+		
+		<include name="VerifyFLRUlogin_TC_36"/>
+		<include name="Verify_FLRURMACration_TC_37"/>
+		
+	    <include name="VerifyFLPTlogin_TC_38"/>
+		<include name="Verify_FLPTRMACration_TC_39"/>-->
+		
+		<include name="Verify_SDRMAENCration_TC_05"/>
+	
+  	</methods>  	
+  	</class>
+  	
+  	
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
